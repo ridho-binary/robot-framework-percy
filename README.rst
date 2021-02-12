@@ -13,6 +13,7 @@ Installation
 The recommended installation method is using pip::
 
     pip install robot-framework-percy
+    pip install percy
 
 Usage
 -----

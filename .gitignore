@@ -6,3 +6,9 @@
 
 # Python egg metadata, regenerated from source files by setuptools.
 /src/*.egg-info/
+
+.idea/
+venv/
+log.html
+output.xml
+report.html

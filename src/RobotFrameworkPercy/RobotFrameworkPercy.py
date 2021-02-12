@@ -10,7 +10,7 @@ class RobotFrameworkPercy():
         self.percy_runner = None
 
     def Percy_Initialize_Build(self, **kwargs):
-        driver = BuiltIn().get_library_instance('Selenium2Library')._current_browser()
+        driver = BuiltIn().get_library_instance('SeleniumLibrary').driver
         loader = percy.ResourceLoader(
             root_dir=kwargs.get('root_dir'),
             base_url=kwargs.get('base_url'),
